@@ -30,7 +30,7 @@
 #images {
     display: flex;
     padding-left: 400px;
-    padding-top: 100px;
+    padding-top: 00px;
     padding-bottom: 100px;
 }
 #image1 {
@@ -48,4 +48,59 @@
     padding-right: 90px;
     padding-top: 40px;
 }
+#sss {
+    display: flex;
+    padding: 30px;
+    padding-left: 200px;
+}
+#mmm {
+    display: flex;
+    padding: 30px;
+    padding-left: 200px;
+}
+#images1 {
+    padding-right: 30px;
+}
+#images2 {
+    padding-right: 30px;
+}
+#images3 {
+    padding-right: 30px;
+}
+#images4 {
+    padding-right: 30px;
+}
+#images5 {
+    padding-right: 30px;
+}
+#images6 {
+    padding-right: 30px;
+}
+#images7 {
+    padding-right: 30px;
+}
+#images8 {
+    padding-right: 30px;
+}
+h2 {
+    text-align: center;
+}
+#form {
+    text-align: center;
+    background-image: url(backgrounds/c_image.jpg);
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+#meso {
+    padding-top: 30px;
+}
+#social {
+    display: flex;
+    padding-left: 700px;
+    padding-top: 30px;
+}
+
+
+
+
 
