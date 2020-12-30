@@ -15,8 +15,7 @@ customers
     ```
 * Open the project on VS Code and liveserver
 ## Known Bugs
-* the akan name is not working as expected 
-* When the user clicks on the Calculate button the user should see the akan name but Akan is not funtioning 
+
 ## Technologies Used
 * HTML
 * css
