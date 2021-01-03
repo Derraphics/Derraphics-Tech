@@ -111,6 +111,18 @@ h2 {
     padding-bottom: 110px;
     text-align: center;
 }
+#first-p :hover{
+background-color: rgb(83, 91, 126);
+}
+#image1 :hover{
+    background-color: rgb(110, 103, 150);
+}
+#image2 :hover {
+    background-color: rgb(110, 103, 150);
+}
+#image3 :hover {
+    background-color: rgb(110, 103, 150);
+}
 
 
 
