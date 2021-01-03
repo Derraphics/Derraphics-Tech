@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Delani Studio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootsrap.css" type="text/css">
     <link rel="stylesheet" href="index.css" type="text/css">
 </head>
@@ -42,18 +44,48 @@
               based on your requirements, we can provide acomplete offering or just the pieces you  need. <br>
           </p>
       </div>
+
+            
+
       <h2>
           WHAT WE DO
       </h2>
       <div id="images">
+          
            <div id="image1">
-            <img src="services_icons/design_icon.png" >
+            
+            <div id="design-paragraph">
+                <h2 class="design">DESIGN</h2>
+                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+              </div>
+        
+                <div id="design-img">
+                    <img src="services_icons/design_icon.png" >
+                </div>
+                <P id="">DESIGN</P>
            </div>
            <div id="image2">
-            <img src="services_icons/dev_icon.png" alt="">
+            <div id="development-paragraph">
+                <h2 class="development">DEVELOPMENT</h2>
+                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                 <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+              </div>
+            <div id="development-img">
+                <img src="services_icons/dev_icon.png" alt="">
+            </div>
+            <P id="design-paragraph">DEVELOPMENT</P>
            </div>
            <div id="image3">
-            <img src="services_icons/product_icon.png" alt="">
+            <div id="product-paragraph">
+                <h2 class="product">PRODUCT MANAGEMENT</h2>
+                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+              </div>
+            <div id="product-img">
+                <img src="services_icons/product_icon.png" alt="">
+            </div>
+            <P id="design-paragraph">PRODUCT MANAGEMENT</P>
            </div>
       </div>
       <h2>
@@ -62,41 +94,52 @@
      <div id="sss">
         <div id="images1">
             <img src="portfolio/work4.jpg" alt="">
+            <p id="ges1" class="text-center">DARK STUDIO</p>
            </div>
            <div id="images2">
             <img src="portfolio/work3.jpg" alt="">
+            <p id="ges2" class="text-center">PHOENIX</p>
            </div>
            <div id="images3">
             <img src="portfolio/work2.jpg" alt="">
+            <p id="ges3" class="text-center">SHOOTS</p>
            </div>
            <div id="images4">
             <img src="portfolio/work1.jpg" alt="">
+            <p id="ges4" class="text-center" >WRITNG BLOGS</p>
            </div>
      </div> 
      <div id="mmm">  
            <div id="images5">
             <img src="portfolio/work5.jpg" alt="">
+            <p id="ges5" class="text-center">WEBDEVELOPMENT</p>
            </div>
            <div id="images6">
             <img src="portfolio/work6.jpg" alt="">
+            <p id="ges6" class="text-center">BUTTONS</p>
            </div>
            <div id="images7">
             <img src="portfolio/work7.jpg" alt="">
+            <p id="ges7" class="text-center">LOGO MARK UP</p>
            </div>
            <div id="images8">
             <img src="portfolio/work8.jpg" alt="">
+            <p id="ges8" class="text-center">MZINGA MOJA</p>
            </div>
      </div>
      <div>
          <h2>CONTACT US</h2>
-         <div id="form">
-            <input name="name" type="text"  placeholder="Full Name" size="60">
-            <input name="email" type="text" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" size="60">
-            <div id="meso">
-                <textarea name="message" rows="6"  placeholder="Your message...." size="200"></textarea>
-             </div>    
-         </div>
-     </div>
+         <form id="form2">
+            <div class="form-group form-inline">
+              <input type="text" class="form-control" placeholder = "Name...." name="yourname" id="yourname" size="25" value="">
+              <input  type="email" class="form-control"  placeholder = "Email...."name="youremail" id="youremail" size="25" value="">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="9" id="comment" placeholder = "Your message here...."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+          </form>
+
      <div id="social">
          <img src="social_icons/behance.png" alt="">
          <img src="social_icons/dribble.png" alt="">
@@ -117,5 +160,3 @@
      </div>
      <script src="javascript.js"></script> 
      <script src="jquery-3.5.1.min.js"></script>
- </body>
-</html>

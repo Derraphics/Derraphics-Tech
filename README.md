@@ -19,7 +19,7 @@ customers
 ## Technologies Used
 * HTML
 * css
-* javascript in javascript  I have gone ahead and used the loops which we had not yet learnt in week two.
+* javascript
 ## Support and contact details
 If your would like to contribute to this project, fork the project and raise a PR
 ### License
