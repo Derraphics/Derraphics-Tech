@@ -93,7 +93,7 @@ $(document).ready(function(){
     alert (name + ", we have received your message. Thank you for contacting us.");
   }
   else{
-    alert("please enter your name and email");
+    alert("Please provide your name and email");
   }
  });
 });
