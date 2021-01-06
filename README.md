@@ -16,7 +16,7 @@ customers here in Delani we also do alot af research before we come up with the 
     ```
 * Open the project on VS Code and liveserver
 ## Known Bugs
-
+  Currently the project is working as expected
 ## Technologies Used
 * HTML
 * css
